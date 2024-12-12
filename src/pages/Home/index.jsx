@@ -1,6 +1,11 @@
+import Gallery from '../../components/Gallery'
+import Banner from '../../components/Banner'
 function Home(){
     return(
-        <p>Page Home</p>
-    )
+        <div className='Home'>
+            <Banner title='Chez vous, partout et ailleurs'/>
+            <Gallery/>
+        </div>
+    );
 }
 export default Home

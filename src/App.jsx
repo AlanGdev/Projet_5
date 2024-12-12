@@ -8,9 +8,9 @@ function App() {
 
   return (
     <Router>
-      <header><Header/></header>
+      <Header/>
       <main><AppRouter/></main>
-      <footer><Footer/></footer>
+      <Footer/>
     </Router>
   )
 }

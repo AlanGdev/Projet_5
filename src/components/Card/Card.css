@@ -1,0 +1,10 @@
+.card {
+  width: 340px;
+  height: 340px;
+}
+.card .card__cover {
+  width: 340px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=Card.css.map */

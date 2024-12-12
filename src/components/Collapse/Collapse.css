@@ -1,0 +1,12 @@
+.collapse .collapse__title {
+  background-color: #FF6060;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.collapse .collapse__content {
+  background-color: #f6f6f6;
+  margin: 0px;
+}
+
+/*# sourceMappingURL=Collapse.css.map */
