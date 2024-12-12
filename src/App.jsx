@@ -1,17 +1,16 @@
-import { BrowserRouter as Router } from "react-router-dom"
+import { BrowserRouter as Router} from 'react-router-dom'
+import './App.css'
 import Header from './components/Header'
-import Footer from './components/Footer'
 import AppRouter from './components/AppRouter'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <Router>
-      <Header/>
-      <main>
-        <AppRouter/>
-      </main>
-      <Footer/>
+      <header><Header/></header>
+      <main><AppRouter/></main>
+      <footer><Footer/></footer>
     </Router>
   )
 }
