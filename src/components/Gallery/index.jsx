@@ -6,7 +6,7 @@ function Gallery(){
         <ul className='gallery'>
             {logements.map((logement)=>(
             <li key={logement.id} className='gallery__item'>
-                <Card cover={logement.cover} title={logement.title}/>
+                <Card cover={logement.cover} title={logement.title} id={logement.id}/>
             </li>
             )
             )}

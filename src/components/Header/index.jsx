@@ -3,8 +3,8 @@ import Navbar from '../Navbar'
 import './Header.css'
 function Header(){
     return(
-        <header className='banner'>
-            <img src={logo} alt="" className='banner__logo'/>
+        <header className='header'>
+            <img src={logo} alt="" className='header__logo'/>
             <Navbar/>
         </header>
 

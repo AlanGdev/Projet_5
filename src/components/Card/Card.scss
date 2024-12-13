@@ -1,8 +1,13 @@
 .card{
     width: 340px;
     height: 340px;
+    border-radius: 10px;
     .card__cover{
         width: 340px;
         object-fit: cover;
+    }
+    .card__title{
+        max-width: 100%;
+        margin:0;
     }
 }
