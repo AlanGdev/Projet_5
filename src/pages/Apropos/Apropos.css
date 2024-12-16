@@ -1,4 +1,9 @@
-.content {
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.about .about__content {
   display: flex;
   flex-direction: column;
   gap: 30px;

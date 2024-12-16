@@ -1,6 +1,18 @@
-#root {
+  #root{
+    margin: auto;
+  }
+  .appli{
     max-width: 1440px;
     padding-top: 45px;
+    font-family:'Montserrat';
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    .appli__content{
+      margin: 0 100px;
+      display:flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+
   }
-  
-  

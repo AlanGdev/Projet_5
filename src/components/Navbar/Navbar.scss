@@ -3,6 +3,11 @@
     gap:57px;
     .navbar__link{
         text-decoration: none;
-        color:inherit
+        color:inherit;
+        font-size: 24px;
+        font-weight: 500;
+        &--underline{
+            text-decoration: underline;
+        }
     }
 }
