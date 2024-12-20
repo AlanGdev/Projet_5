@@ -1,12 +1,33 @@
-.collapse .collapse__title {
-  background-color: #FF6060;
-  color: white;
+.collapse {
+  flex: 1;
+}
+.collapse .collapse__banner {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(255, 96, 96);
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  font-size: 24px;
+}
+.collapse .collapse__banner .collapse__banner__title {
+  margin: 0;
+  font-weight: 700;
+}
+.collapse .collapse__banner .collapse__banner__btn {
+  font-size: 24px;
+  padding: 0;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
 }
 .collapse .collapse__content {
+  list-style-type: none;
   background-color: #f6f6f6;
   margin: 0px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=Collapse.css.map */

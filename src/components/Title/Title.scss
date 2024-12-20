@@ -1,0 +1,17 @@
+@use '../../styles/variables.scss';
+
+.title-container{
+    .title-container__title{
+        color:variables.$primary-color;
+        font-weight: variables.$weight;
+        font-size: 36px;
+        margin: 0;
+        padding:7.5px 0;
+    }
+    .title-container__location{
+        font-size: 18px;
+        margin:0;
+        padding: 2px 0;
+        font-weight: variables.$weight;
+    }
+}

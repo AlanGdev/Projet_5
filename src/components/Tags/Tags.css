@@ -1,0 +1,20 @@
+.tags {
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
+.tags .tags__item {
+  box-sizing: border-box;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 22px;
+  border-radius: 12px;
+  background-color: rgb(255, 96, 96);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=Tags.css.map */

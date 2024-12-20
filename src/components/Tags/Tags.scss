@@ -1,0 +1,21 @@
+@use '../../styles/variables.scss' as *;
+.tags{
+    display:flex;
+    padding:0;
+    gap: 10px;
+
+    .tags__item{
+        box-sizing: border-box;
+        height:25px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding:3px 22px;
+        border-radius: 12px;
+        background-color: $primary-color;
+        color:$secundary-color;
+        font-size: 14px;
+        font-weight: 700;
+
+    }
+}

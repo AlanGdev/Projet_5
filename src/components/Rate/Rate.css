@@ -1,0 +1,20 @@
+.rating {
+  list-style-type: none;
+  display: flex;
+}
+.rating .rating__star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  font-size: 24px;
+}
+.rating .rating__star--not-colored {
+  color: rgb(227, 227, 227);
+}
+.rating .rating__star--colored {
+  color: rgb(255, 96, 96);
+}
+
+/*# sourceMappingURL=Rate.css.map */

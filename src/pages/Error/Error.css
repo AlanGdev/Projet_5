@@ -1,0 +1,24 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 139px;
+  align-items: center;
+  color: rgb(255, 96, 96);
+}
+.error .error__title {
+  margin: 0;
+  font-size: 288px;
+  font-weight: 700;
+}
+.error .error__comment {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 500;
+}
+.error .error__link {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=Error.css.map */

@@ -1,0 +1,9 @@
+.logement .logement__section {
+  display: flex;
+  justify-content: space-between;
+}
+.logement .logement__details {
+  gap: 76px;
+}
+
+/*# sourceMappingURL=Fiche-Logement.css.map */

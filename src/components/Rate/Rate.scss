@@ -1,0 +1,19 @@
+@use '../../styles/variables.scss' as *;
+.rating{
+    list-style-type: none;
+    display: flex;
+    .rating__star{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height:36px;
+        font-size: 24px;
+    &--not-colored{
+        color:rgb(227,227,227);
+    }
+    &--colored{
+        color:$primary-color;
+    }
+}
+}

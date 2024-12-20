@@ -1,0 +1,12 @@
+.logement{
+    .logement__section{
+        display: flex;
+        justify-content:space-between;
+    }
+    .logement__details{
+        gap:76px
+    }
+    .logement__details__description,.logement__details__equipments{
+    }
+    
+}
